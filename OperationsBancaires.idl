@@ -1,0 +1,7 @@
+module bankapp {
+    interface OperationsBancaires {
+        double balance();
+        void depot(in double amount);
+        void retrait(in double amount);
+    };
+};
